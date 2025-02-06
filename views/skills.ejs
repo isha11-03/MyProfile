@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>My Skills</h1>
-        <ul>
-            <% skills.forEach(skill => { %>
-                <li><%= skill %></li>
-            <% }) %>
-        </ul>
-        <a href="/" class="btn">Back to Home</a>
-    </div>
+    <h1>My Skills 🌟</h1>
+    <ul>
+        <% skills.forEach(skill => { %>
+            <li class="skill-item"><%= skill %></li>
+        <% }); %>
+    </ul>
+    <br>
+    <a href="/">Go Back</a>
 </body>
 </html>
